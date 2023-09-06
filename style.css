@@ -1,0 +1,26 @@
+:root {
+    --branco-principal: #f50c0c;
+    --cinza-secundario: #f71313;
+    --botao-vermelho: #f73016;
+    --cor-de-fundo: #0d090e;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+* {
+    margin: 3;
+    padding: 4;
+}
+
+.principal {
+    background-image: url("hunter.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+}
